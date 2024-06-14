@@ -1,3 +1,136 @@
-img{
-    width:300px;
-}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    body{
+    width: 80%;
+    margin: 0 auto;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+    padding: 1rem 0;
+    }
+
+    
+    header h1{
+    padding-left: 1.5rem;
+    }
+
+    .trademark{
+        font-size: 16px;
+    }
+    nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    }
+    
+    nav ul li{
+    padding-right:1.5rem;
+    list-style-type: none;
+    }
+    nav{
+    font-size: 18px;
+    }
+    
+    .productimage{
+    width: 500px;
+    height:250px;
+    object-fit: contain;
+    padding-bottom: 2rem;
+    }
+    
+    .intro{
+    display:flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+    }
+    
+    .introheader h2{
+    font-size: 48px;
+    }
+    
+    .introheader p{
+    margin-top: .2rem;
+    padding:0 .2rem 1rem 0;
+    font-size: 18px;
+    }
+    
+    .middle{
+    padding-top: 2rem;;
+    }
+    
+    .middle h3{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 36px;
+    }
+    
+    .middleimage{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    }
+    .middleimage img{
+    width: 120px; 
+    }
+    
+    .imgborder{
+    
+    width:160px;
+    padding: 1rem;
+    text-align: center;
+    min-width:auto;
+    }
+    
+    .blockquote{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    padding:3rem;
+    }
+    
+    .end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    width: 60%;
+    margin: 3rem auto;
+    padding: 1.5rem 0;
+    border-radius: 8px;
+    }
+    
+    button{
+    
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    background-color: #3882f6;
+    font-weight: bolder;
+    }
+    
+    footer{
+    text-align: center;
+    padding: 1rem 0;
+    color:white;
+    background-color: #1f2937;
+    }
+    
